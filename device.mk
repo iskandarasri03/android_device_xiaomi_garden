@@ -29,6 +29,10 @@ $(call inherit-product, vendor/xiaomi/garden/garden-vendor.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
 
+PRODUCT_PACKAGES += \
+    libaptX_encoder \
+    libaptXHD_encoder
+
 # GcamGo
 PRODUCT_PACKAGES += \
     GoogleCameraGo
