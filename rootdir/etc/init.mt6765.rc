@@ -140,4 +140,3 @@ on property:sys.boot_completed=1
     stop boot_log
     stop boot_log_crash
     stop boot_log_kernel 
-
