@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += com.android.tethering.inprocess
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    InProcessTetheringResOverlay
 
 # SystemUI
 PRODUCT_PACKAGES += \
