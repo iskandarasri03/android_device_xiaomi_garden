@@ -20,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Lineage stuff
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from garden device makefile
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_garden
+PRODUCT_NAME := arrow_garden
 PRODUCT_DEVICE := garden
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
