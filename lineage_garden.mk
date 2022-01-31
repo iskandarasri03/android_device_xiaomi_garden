@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Lineage stuff
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from garden device makefile
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
